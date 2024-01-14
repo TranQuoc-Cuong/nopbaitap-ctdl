@@ -1,6 +1,6 @@
 def tongCacChuSoNguyenDuong(so_nguyen_duong):
     if (so_nguyen_duong / 10) == 0:
-        f = so_nguyen_duong % 10
+        f = so_nguyen_duong
         return int(f)
     else:
         f = so_nguyen_duong % 10 + tongCacChuSoNguyenDuong(so_nguyen_duong / 10)
