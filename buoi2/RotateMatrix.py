@@ -1,10 +1,3 @@
-def doiCho4ThamSo(so_1, so_2, so_3, so_4):
-    temp = so_1
-    so_1 = so_4
-    so_4 = so_3
-    so_3 = so_2
-    so_2 = temp
-
 from array import*
 mang = array('i', [])
 
