@@ -16,8 +16,6 @@ def nhietDoTrBVaSoNgayCaoHonTrB(so_ngay, nhiet_do):
     print(dem, "day(s) above averge")
 
 
-
-
 from array import *
 nhiet_do = array('i',[])
 

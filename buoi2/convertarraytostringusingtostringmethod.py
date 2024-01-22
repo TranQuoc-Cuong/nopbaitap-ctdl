@@ -1,7 +1,9 @@
 from array import array
 
-mang = array('i', [1,2,3,4,5,6,7])
+mang = array('i', [1,2,3,4])
 
-list = mang.tolist()
+print(type(mang))
 
-print(list)
+mang = str(mang)
+
+print(type(mang))
