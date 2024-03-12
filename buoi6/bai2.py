@@ -22,12 +22,11 @@ class LinkedList:
         self.head = new_node
         self.length += 1
 
-# Example usage:
 linked_list = LinkedList(2)
 linked_list.add_node(3)
 linked_list.add_node(4)
 
-print("Original Linked List:")
+print("dang sach goc: ")
 current_node = linked_list.head
 while current_node:
     print(current_node.value, end=" -> ")
@@ -36,7 +35,7 @@ print("None")
 
 linked_list.insert_at_beginning(1)
 
-print("\nLinked List after Insertion at Beginning:")
+print("\ndanh sach duoc them vao ban dau: ")
 current_node = linked_list.head
 while current_node:
     print(current_node.value, end=" -> ")
